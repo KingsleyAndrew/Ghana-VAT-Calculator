@@ -22,7 +22,7 @@ def calculate_total_with_taxes(contract_sum):
 
     return GETFund_NHIL,subtotal_1, COVID_levy,subtotal_2, VAT, grand_total
 
-st.title(" AFES Ghana Tax Calculator")
+st.title("Ghana Tax Calculator")
 
 contract_sum = st.number_input("Enter Contract Sum (GHS)", min_value=0.0, step=100.0)
 
