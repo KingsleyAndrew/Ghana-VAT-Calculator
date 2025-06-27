@@ -30,8 +30,8 @@ if st.button("Calculate"):
     getfund_nhil, subtotal_1, covid_levy, subtotal_2, vat, total = calculate_total_with_taxes(contract_sum)
     
     st.write(f"**NHIL/GETFund (5%)**: GHS {getfund_nhil:,.2f}")
-    st.write(f"**SUBTOTAL(1) **: GHS {subtotal_1:,.2f}")
+    st.write(f"SUBTOTAL(1): GHS {subtotal_1:,.2f}")
     st.write(f"**COVID Levy (1%)**: GHS {covid_levy:,.2f}")
-    st.write(f"**SUBTOTAL(2) **: GHS {subtotal_2:,.2f}")
+    st.write(f"SUBTOTAL(2): GHS {subtotal_2:,.2f}")
     st.write(f"**VAT (15%)**: GHS {vat:,.2f}")
     st.success(f"**Grand Total: GHS {total:,.2f}**")
